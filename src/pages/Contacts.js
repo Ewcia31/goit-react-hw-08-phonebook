@@ -25,7 +25,7 @@ export default function Contacts() {
       <Helmet>
         <title>Your contacts</title>
       </Helmet>
-      <h1 className={css.title}>Phone Book</h1>
+      <h1 className={css.title}>PhoneBook</h1>
       <SearchBar />
 
       <ContactForm onSubmit={handleSubmit} />
