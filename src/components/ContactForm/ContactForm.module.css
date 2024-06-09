@@ -1,0 +1,48 @@
+.form {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 30px;
+}
+
+.field {
+  flex-grow: 1;
+  padding: 8px;
+  font: inherit;
+}
+
+.field:focus {
+  outline-color: #1976d2;
+}
+
+.title {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button {
+  display: inline-flex;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  background-color: #e2e5e8;
+  color: inherit;
+}
+
+.button.isSelected {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+.button:active {
+  background-color: #1565c0;
+  color: #fff;
+}
